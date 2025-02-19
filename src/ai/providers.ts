@@ -18,7 +18,6 @@ const customModel = process.env.OPENAI_MODEL || 'gpt-4o';
 // Models
 
 export const o3MiniModel = openai(customModel, {
-  reasoningEffort: 'medium',
   structuredOutputs: true,
   temperature: 0.7,
   maxTokens: 2048
